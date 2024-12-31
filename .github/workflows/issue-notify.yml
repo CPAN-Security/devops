@@ -17,6 +17,6 @@ jobs:
     continue-on-error: true
     if: ${{ always() }}
     steps:
-      - uses: CPAN-Security/devops/github-actions/irc-notifications@master
+      - uses: CPAN-Security/devops/github-actions/irc-notifications@main
         with:
           target-notifications: true
