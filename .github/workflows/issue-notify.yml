@@ -10,11 +10,12 @@ on:
       [closed, assigned, converted_to_draft, ready_for_review, review_requested]
   pull_request_review:
     types: [submitted]
-
+  push:
+    branches: [main]
 jobs:
   notify:
     runs-on: ubuntu-latest
-    continue-on-error: true
+    continue-on-error: false
     if: ${{ always() }}
     steps:
       - uses: CPAN-Security/devops/github-actions/irc-notifications@main
