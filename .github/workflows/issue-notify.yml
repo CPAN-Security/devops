@@ -15,7 +15,7 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
-    continue-on-error: false
+    continue-on-error: true
     if: ${{ always() }}
     steps:
       - uses: CPAN-Security/devops/github-actions/irc-notifications@main
