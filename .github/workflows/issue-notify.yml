@@ -21,4 +21,3 @@ jobs:
       - uses: CPAN-Security/devops/github-actions/irc-notifications@main
         with:
           target-notifications: true
-          debug: true
