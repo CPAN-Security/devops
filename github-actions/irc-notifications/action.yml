@@ -13,16 +13,16 @@ inputs:
     default: '#cpan-security'
   irc-server:
     required: true
-    default: 'ssl.irc.perl.org'
+    default: 'irc.perl.org'
   irc-port:
     required: true
-    default: '7062'
+    default: '6667'
   irc-nickname:
     required: true
-    default: 'gh-commits'
+    default: 'cpansec-commits'
   irc-tls:
     required: true
-    default: true
+    default: false
   irc-notice:
     required: true
     default: true
