@@ -19,13 +19,13 @@ inputs:
     default: '6667'
   irc-nickname:
     required: true
-    default: 'cpansec-commits'
+    default: 'cpansec-gh'
   irc-tls:
     required: true
     default: false
   irc-notice:
     required: true
-    default: true
+    default: false
   irc-excess-flood:
     required: false
     default: 'throttle'
